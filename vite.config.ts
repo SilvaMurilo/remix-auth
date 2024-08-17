@@ -9,4 +9,12 @@ export default defineConfig({
       '~': path.resolve(__dirname, 'app'),
     },
   },
+  css: {
+    postcss: {
+      plugins: [
+        require('tailwindcss'),
+        require('autoprefixer'),
+      ],
+    },
+  },
 });
