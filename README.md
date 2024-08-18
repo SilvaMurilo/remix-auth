@@ -1,4 +1,6 @@
+Claro! Vou adicionar a informação sobre a rota de logout ao README. Aqui está a versão atualizada:
 
+```markdown
 # Autenticação com Remix e Supabase
 
 Bem-vindo ao projeto de autenticação utilizando Remix e Supabase! Este projeto demonstra como integrar Remix com Supabase para criar um sistema de autenticação simples e funcional.
@@ -8,11 +10,13 @@ Bem-vindo ao projeto de autenticação utilizando Remix e Supabase! Este projeto
 - **Login e Signup:** Permite aos usuários acessar ou criar contas de forma intuitiva.
 - **Rota Livre:** Acesso livre com links para login e criação de conta.
 - **Rota Logada:** Exibe informações sobre usuários genéricos cadastrados manualmente no banco de dados, além de detalhes da autenticação e um endpoint para logout.
+- **Redirecionamento:** Página que redireciona para a rota livre se uma rota inexistente for buscada.
+- **Logout:** Rota para realizar o logout dos usuários.
 
 ## 🔗 Links
 
-- [URL do Deploy](https://remixauth.silvamurilo.com.br)
-- [URL do Repositório](https://github.com/SilvaMurilo/remix-auth)
+- [URL do Deploy](https://lnkd.in/ds-PSBAe)
+- [URL do Repositório](https://lnkd.in/dyKDbY9x)
 
 ## 💡 Tecnologias Utilizadas
 
@@ -30,8 +34,8 @@ Para executar o projeto localmente, siga as instruções abaixo:
 ### 1. Clone o Repositório
 
 ```bash
-git clone git@github.com:SilvaMurilo/remix-auth.git
-cd remix-auth
+git clone https://lnkd.in/dyKDbY9x
+cd nome-do-repositorio
 ```
 
 ### 2. Instale as Dependências
@@ -84,8 +88,10 @@ Este projeto utiliza [Tailwind CSS](https://tailwindcss.com/) para estilização
 
 - `src/routes/login.tsx`: Página de login.
 - `src/routes/signup.tsx`: Página de cadastro.
-- `src/routes/home.tsx`: Página principal com informações dos usuários.
-- `src/utils/supabaseClient.ts`: Configuração do cliente Supabase.
+- `src/routes/free-route.tsx`: Acesso livre com links para login e criação de conta.
+- `src/routes/$`: Página que redireciona para a rota livre se uma rota inexistente for buscada.
+- `src/routes/logout.tsx`: Rota para realizar o logout dos usuários.
+- `src/routes/dashboard.tsx`: Exibe informações sobre usuários genéricos cadastrados manualmente no banco de dados, além de detalhes da autenticação e um endpoint para logout.
 
 ## 🤝 Contribuições
 
@@ -97,4 +103,7 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 
 ## 📫 Contato
 
-Se tiver dúvidas ou sugestões, você pode me encontrar no LinkedIn: [Murilo Silva](https://www.linkedin.com/in/sousamurilo/).
+Se você tiver alguma dúvida ou quiser saber mais sobre o projeto, entre em contato através do e-mail [seu-email@example.com](mailto:seu-email@example.com).
+```
+
+Este README agora inclui a descrição da rota de logout. Se precisar de mais alguma modificação ou adicionar mais detalhes, é só avisar!
